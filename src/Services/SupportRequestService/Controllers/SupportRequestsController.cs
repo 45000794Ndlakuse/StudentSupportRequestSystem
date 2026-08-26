@@ -1,6 +1,8 @@
+using System.Net.Http.Json;
 using Microsoft.AspNetCore.Mvc;
 using SupportRequestService.DTOs;
 using SupportRequestService.Models;
+
 
 namespace SupportRequestService.Controllers;
 
@@ -9,6 +11,13 @@ namespace SupportRequestService.Controllers;
 public class SupportRequestsController : ControllerBase
 {
     private static readonly List<SupportRequest> Requests = new();
+
+    private readonly IHttpClientFactory _httpClientFactory;
+
+    public SupportRequestsController(IHttpClientFactory httpClientFactory)
+    {
+        _httpClientFactory = httpClientFactory;
+    }
 
     // GET: api/supportrequests
     [HttpGet]
@@ -44,7 +53,7 @@ public class SupportRequestsController : ControllerBase
 
     // POST: api/supportrequests
     [HttpPost]
-    public IActionResult CreateRequest(CreateSupportRequestDto createDto)
+    public async Task<IActionResult> CreateRequest(CreateSupportRequestDto createDto)
     {
         var request = new SupportRequest
         {
@@ -58,6 +67,36 @@ public class SupportRequestsController : ControllerBase
         };
 
         Requests.Add(request);
+
+        try
+        {
+            var client = _httpClientFactory.CreateClient();
+
+            var notification = new
+            {
+                UserId = request.StudentId,
+                Message = $"Your support request '{request.Title}' has been successfully submitted.",
+                Type = "SupportRequest"
+            };
+
+            var response = await client.PostAsJsonAsync(
+                "http://localhost:5195/api/notifications",
+                notification
+            );
+
+            if (!response.IsSuccessStatusCode)
+            {
+                Console.WriteLine(
+                    $"Failed to create notification. Status: {response.StatusCode}"
+                );
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(
+                $"Error communicating with NotificationService: {ex.Message}"
+            );
+        }
 
         return CreatedAtAction(
             nameof(GetRequestById),

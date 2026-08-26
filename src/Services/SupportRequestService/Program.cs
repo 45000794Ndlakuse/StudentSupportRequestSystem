@@ -4,6 +4,10 @@ builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
 
+// Allows this service to make HTTP calls to other microservices
+builder.Services.AddHttpClient();
+
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
