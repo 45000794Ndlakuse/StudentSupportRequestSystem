@@ -7,12 +7,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
 
-// Allows this service to make HTTP calls to other microservices
 builder.Services.AddHttpClient();
-
-// ==========================================
-// Consul Configuration
-// ==========================================
 
 var consulConfig = new ConsulConfig();
 
@@ -25,7 +20,6 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-// Temporarily disabled while we are only using HTTP locally
 // app.UseHttpsRedirection();
 
 app.MapControllers();

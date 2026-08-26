@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using SupportRequestService.DTOs;
 using SupportRequestService.Models;
 
-
 namespace SupportRequestService.Controllers;
 
 [ApiController]
@@ -53,7 +52,8 @@ public class SupportRequestsController : ControllerBase
 
     // POST: api/supportrequests
     [HttpPost]
-    public async Task<IActionResult> CreateRequest(CreateSupportRequestDto createDto)
+    public async Task<IActionResult> CreateRequest(
+        CreateSupportRequestDto createDto)
     {
         var request = new SupportRequest
         {
@@ -68,6 +68,7 @@ public class SupportRequestsController : ControllerBase
 
         Requests.Add(request);
 
+        // Send notification
         try
         {
             var client = _httpClientFactory.CreateClient();
