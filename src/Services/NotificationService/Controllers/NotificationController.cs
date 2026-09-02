@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using NotificationService.DTOs;
 using NotificationService.Models;
+using NotificationService.Repositories;
 
 namespace NotificationService.Controllers;
 
@@ -8,21 +9,27 @@ namespace NotificationService.Controllers;
 [Route("api/[controller]")]
 public class NotificationsController : ControllerBase
 {
-    private static readonly List<Notification> Notifications = new();
+    private readonly INotificationRepository _repository;
+
+    public NotificationsController(INotificationRepository repository)
+    {
+        _repository = repository;
+    }
 
     // GET: api/notifications
     [HttpGet]
-    public IActionResult GetAllNotifications()
+    public async Task<IActionResult> GetAllNotifications()
     {
-        return Ok(Notifications);
+        var notifications = await _repository.GetAllAsync();
+
+        return Ok(notifications);
     }
 
     // GET: api/notifications/1
     [HttpGet("{id}")]
-    public IActionResult GetNotificationById(int id)
+    public async Task<IActionResult> GetNotificationById(int id)
     {
-        var notification = Notifications
-            .FirstOrDefault(n => n.Id == id);
+        var notification = await _repository.GetByIdAsync(id);
 
         if (notification == null)
         {
@@ -34,70 +41,72 @@ public class NotificationsController : ControllerBase
 
     // GET: api/notifications/user/1
     [HttpGet("user/{userId}")]
-    public IActionResult GetNotificationsByUser(int userId)
+    public async Task<IActionResult> GetNotificationsByUser(int userId)
     {
-        var userNotifications = Notifications
-            .Where(n => n.UserId == userId)
-            .ToList();
+        var notifications = await _repository.GetByUserIdAsync(userId);
 
-        return Ok(userNotifications);
+        return Ok(notifications);
     }
 
     // POST: api/notifications
     [HttpPost]
-    public IActionResult CreateNotification(
+    public async Task<IActionResult> CreateNotification(
         CreateNotificationDto createDto)
     {
         var notification = new Notification
         {
-            Id = Notifications.Count + 1,
             UserId = createDto.UserId,
             Message = createDto.Message,
             Type = createDto.Type,
-            IsRead = false
+            IsRead = false,
+            CreatedAt = DateTime.UtcNow
         };
 
-        Notifications.Add(notification);
+        var createdNotification =
+            await _repository.CreateAsync(notification);
 
         return CreatedAtAction(
             nameof(GetNotificationById),
-            new { id = notification.Id },
-            notification
+            new { id = createdNotification.Id },
+            createdNotification
         );
     }
 
     // PUT: api/notifications/1/read
     [HttpPut("{id}/read")]
-    public IActionResult MarkNotificationAsRead(
+    public async Task<IActionResult> MarkNotificationAsRead(
         int id,
         MarkNotificationReadDto readDto)
     {
-        var notification = Notifications
-            .FirstOrDefault(n => n.Id == id);
+        var notification = await _repository.GetByIdAsync(id);
 
         if (notification == null)
         {
             return NotFound("Notification not found.");
         }
 
-        notification.IsRead = readDto.IsRead;
+        var updated = await _repository.MarkAsReadAsync(id);
 
-        return Ok(notification);
+        if (!updated)
+        {
+            return NotFound("Notification not found.");
+        }
+
+        var updatedNotification = await _repository.GetByIdAsync(id);
+
+        return Ok(updatedNotification);
     }
 
     // DELETE: api/notifications/1
     [HttpDelete("{id}")]
-    public IActionResult DeleteNotification(int id)
+    public async Task<IActionResult> DeleteNotification(int id)
     {
-        var notification = Notifications
-            .FirstOrDefault(n => n.Id == id);
+        var deleted = await _repository.DeleteAsync(id);
 
-        if (notification == null)
+        if (!deleted)
         {
             return NotFound("Notification not found.");
         }
-
-        Notifications.Remove(notification);
 
         return NoContent();
     }

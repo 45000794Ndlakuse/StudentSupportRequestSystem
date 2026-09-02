@@ -1,5 +1,6 @@
 using Consul;
 using NotificationService.Configuration;
+using NotificationService.Repositories;
 using Microsoft.EntityFrameworkCore;
 using NotificationService.Data;
 
@@ -9,14 +10,19 @@ var builder = WebApplication.CreateBuilder(args);
 // Add controllers
 builder.Services.AddControllers();
 
+
 // SQL Server / Entity Framework
 builder.Services.AddDbContext<NotificationDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("NotificationDb")
     ));
 
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
+
 // OpenAPI
 builder.Services.AddOpenApi();
+
+builder.Services.AddSwaggerGen();
 
 // Consul configuration
 var consulConfig = new ConsulConfig();
@@ -24,6 +30,8 @@ var consulConfig = new ConsulConfig();
 builder.Services.AddSingleton(consulConfig);
 
 var app = builder.Build();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 // OpenAPI
 if (app.Environment.IsDevelopment())
