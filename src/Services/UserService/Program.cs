@@ -1,11 +1,26 @@
 using Consul;
+using Microsoft.EntityFrameworkCore;
 using UserService.Configuration;
+using UserService.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
+
+// ==========================================
+// Database Configuration
+// ==========================================
+
+builder.Services.AddDbContext<UserDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("UserDb")
+    ));
+
+// ==========================================
+// Consul Configuration
+// ==========================================
 
 var consulConfig = new ConsulConfig();
 
