@@ -1,0 +1,129 @@
+2026-09-02 22:33:53.258 +02:00 [INF] NotificationService registered with Consul at host.docker.internal:5195
+2026-09-02 22:33:53.565 +02:00 [INF] Now listening on: http://localhost:5195
+2026-09-02 22:33:53.573 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-02 22:33:53.575 +02:00 [INF] Hosting environment: Development
+2026-09-02 22:33:53.577 +02:00 [INF] Content root path: C:\Users\Thami\Projects2026\StudentSupportRequestSystem\src\Services\NotificationService
+2026-09-02 22:33:59.399 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:33:59.489 +02:00 [WRN] Failed to determine the https port for redirect.
+2026-09-02 22:33:59.497 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:33:59.534 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:34:01.577 +02:00 [INF] Executed DbCommand (144ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:34:01.691 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:34:01.740 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 2190.7884ms
+2026-09-02 22:34:01.749 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:01.786 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 2393.6275ms
+2026-09-02 22:34:11.799 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:34:11.832 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:11.841 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:34:12.010 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:34:12.029 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:34:12.043 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 184.1318ms
+2026-09-02 22:34:12.060 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:12.069 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 273.9667ms
+2026-09-02 22:34:22.095 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:34:22.123 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:22.130 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:34:22.397 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:34:22.401 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:34:22.403 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 250.4359ms
+2026-09-02 22:34:22.408 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:22.411 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 316.013ms
+2026-09-02 22:34:32.441 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:34:32.473 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:32.490 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:34:32.527 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:34:32.534 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:34:32.541 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 18.9182ms
+2026-09-02 22:34:32.547 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:32.550 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 108.9874ms
+2026-09-02 22:34:42.570 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:34:42.583 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:42.587 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:34:42.599 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:34:42.611 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:34:42.620 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 24.902ms
+2026-09-02 22:34:42.627 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:42.633 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 62.8387ms
+2026-09-02 22:34:46.634 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5195/api/Notifications - application/json 88
+2026-09-02 22:34:46.655 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.NotificationsController.CreateNotification (NotificationService)'
+2026-09-02 22:34:46.750 +02:00 [INF] Route matched with {action = "CreateNotification", controller = "Notifications"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateNotification(NotificationService.DTOs.CreateNotificationDto) on controller NotificationService.Controllers.NotificationsController (NotificationService).
+2026-09-02 22:34:46.850 +02:00 [INF] Creating notification for UserId 2 of type SupportRequest
+2026-09-02 22:34:47.993 +02:00 [INF] Executed DbCommand (103ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Notifications] ([CreatedAt], [IsRead], [Message], [Type], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-09-02 22:34:48.214 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'NotificationService.Models.Notification'.
+2026-09-02 22:34:48.284 +02:00 [INF] Executed action NotificationService.Controllers.NotificationsController.CreateNotification (NotificationService) in 1527.4574ms
+2026-09-02 22:34:48.289 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.NotificationsController.CreateNotification (NotificationService)'
+2026-09-02 22:34:48.293 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5195/api/Notifications - 201 null application/json; charset=utf-8 1658.5633ms
+2026-09-02 22:34:52.647 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:34:52.655 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:52.660 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:34:52.672 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:34:52.681 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:34:52.686 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 18.1325ms
+2026-09-02 22:34:52.690 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:34:52.694 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 47.1744ms
+2026-09-02 22:35:02.720 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:35:02.741 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:02.752 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:35:02.788 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:35:02.821 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:35:02.842 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 60.6084ms
+2026-09-02 22:35:02.869 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:02.879 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 158.654ms
+2026-09-02 22:35:12.889 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:35:12.898 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:12.902 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:35:12.913 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:35:12.918 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:35:12.922 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 12.5459ms
+2026-09-02 22:35:12.928 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:12.931 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 41.5798ms
+2026-09-02 22:35:22.943 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:35:22.954 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:22.957 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:35:22.966 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:35:22.976 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:35:22.999 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 35.7956ms
+2026-09-02 22:35:23.124 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:23.127 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 183.2949ms
+2026-09-02 22:35:33.161 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:35:33.196 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:33.211 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:35:33.240 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:35:33.249 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:35:33.255 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 24.756ms
+2026-09-02 22:35:33.261 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:33.267 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 106.0072ms
+2026-09-02 22:35:43.339 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:35:43.370 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:43.374 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:35:43.385 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:35:43.392 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:35:43.397 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 14.7395ms
+2026-09-02 22:35:43.400 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:43.405 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 64.9206ms
+2026-09-02 22:35:53.432 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5195/health - null null
+2026-09-02 22:35:53.447 +02:00 [INF] Executing endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:53.450 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller NotificationService.Controllers.HealthController (NotificationService).
+2026-09-02 22:35:53.456 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-02 22:35:53.463 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-02 22:35:53.466 +02:00 [INF] Executed action NotificationService.Controllers.HealthController.Get (NotificationService) in 12.0483ms
+2026-09-02 22:35:53.470 +02:00 [INF] Executed endpoint 'NotificationService.Controllers.HealthController.Get (NotificationService)'
+2026-09-02 22:35:53.473 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5195/health - 200 null application/json; charset=utf-8 41.3314ms
+2026-09-02 22:35:54.800 +02:00 [INF] Application is shutting down...

@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Mvc;
 using NotificationService.DTOs;
 using NotificationService.Models;
@@ -11,11 +12,15 @@ public class NotificationsController : ControllerBase
 {
     private readonly INotificationRepository _repository;
 
-    public NotificationsController(INotificationRepository repository)
-    {
-        _repository = repository;
-    }
+    private readonly ILogger<NotificationsController> _logger;
 
+    public NotificationsController(
+    INotificationRepository repository,
+    ILogger<NotificationsController> logger)
+{
+    _repository = repository;
+    _logger = logger;
+}
     // GET: api/notifications
     [HttpGet]
     public async Task<IActionResult> GetAllNotifications()
@@ -53,6 +58,12 @@ public class NotificationsController : ControllerBase
     public async Task<IActionResult> CreateNotification(
         CreateNotificationDto createDto)
     {
+        _logger.LogInformation(
+        "Creating notification for UserId {UserId} of type {Type}",
+        createDto.UserId,
+        createDto.Type);
+
+
         var notification = new Notification
         {
             UserId = createDto.UserId,

@@ -1,3 +1,4 @@
+using Serilog;
 using Consul;
 using NotificationService.Configuration;
 using NotificationService.Repositories;
@@ -6,6 +7,17 @@ using NotificationService.Data;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure Serilog
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.Console()
+    .WriteTo.File(
+        "logs/notification-service-.log",
+        rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 // Add controllers
 builder.Services.AddControllers();
@@ -78,9 +90,10 @@ var registration = new AgentServiceRegistration
 // Register service with Consul
 await consulClient.Agent.ServiceRegister(registration);
 
-Console.WriteLine(
-    $"NotificationService registered with Consul at {consulConfig.ServiceHost}:{consulConfig.ServicePort}"
-);
+Log.Information(
+    "NotificationService registered with Consul at {Host}:{Port}",
+    consulConfig.ServiceHost,
+    consulConfig.ServicePort);
 
 // Deregister service when application stops
 app.Lifetime.ApplicationStopping.Register(() =>
