@@ -1,13 +1,31 @@
 using Consul;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using UserService.Configuration;
 using UserService.Data;
+using UserService.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// ==========================================
+// Serilog Configuration
+// ==========================================
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.Console()
+    .WriteTo.File(
+        "logs/user-service-.log",
+        rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
+
+builder.Services.AddSwaggerGen();
 
 // ==========================================
 // Database Configuration
@@ -18,6 +36,8 @@ builder.Services.AddDbContext<UserDbContext>(options =>
         builder.Configuration.GetConnectionString("UserDb")
     ));
 
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 // ==========================================
 // Consul Configuration
 // ==========================================
@@ -27,6 +47,8 @@ var consulConfig = new ConsulConfig();
 builder.Services.AddSingleton(consulConfig);
 
 var app = builder.Build();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 if (app.Environment.IsDevelopment())
 {
@@ -63,9 +85,10 @@ var registration = new AgentServiceRegistration()
 
 await consulClient.Agent.ServiceRegister(registration);
 
-Console.WriteLine(
-    $"UserService registered with Consul at {consulConfig.ServiceHost}:{consulConfig.ServicePort}"
-);
+Log.Information(
+    "UserService registered with Consul at {ServiceHost}:{ServicePort}",
+    consulConfig.ServiceHost,
+    consulConfig.ServicePort);
 
 app.Lifetime.ApplicationStopping.Register(() =>
 {
