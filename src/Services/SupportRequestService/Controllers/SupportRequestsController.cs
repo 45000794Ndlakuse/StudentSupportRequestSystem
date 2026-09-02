@@ -1,5 +1,7 @@
 using System.Net.Http.Json;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SupportRequestService.Data;
 using SupportRequestService.DTOs;
 using SupportRequestService.Models;
 
@@ -9,27 +11,32 @@ namespace SupportRequestService.Controllers;
 [Route("api/[controller]")]
 public class SupportRequestsController : ControllerBase
 {
-    private static readonly List<SupportRequest> Requests = new();
-
+    private readonly SupportRequestDbContext _context;
     private readonly IHttpClientFactory _httpClientFactory;
 
-    public SupportRequestsController(IHttpClientFactory httpClientFactory)
+    public SupportRequestsController(
+        SupportRequestDbContext context,
+        IHttpClientFactory httpClientFactory)
     {
+        _context = context;
         _httpClientFactory = httpClientFactory;
     }
 
     // GET: api/supportrequests
     [HttpGet]
-    public IActionResult GetAllRequests()
+    public async Task<IActionResult> GetAllRequests()
     {
-        return Ok(Requests);
+        var requests = await _context.SupportRequests.ToListAsync();
+
+        return Ok(requests);
     }
 
     // GET: api/supportrequests/1
     [HttpGet("{id}")]
-    public IActionResult GetRequestById(int id)
+    public async Task<IActionResult> GetRequestById(int id)
     {
-        var request = Requests.FirstOrDefault(r => r.Id == id);
+        var request = await _context.SupportRequests
+            .FirstOrDefaultAsync(r => r.Id == id);
 
         if (request == null)
         {
@@ -41,11 +48,11 @@ public class SupportRequestsController : ControllerBase
 
     // GET: api/supportrequests/student/1
     [HttpGet("student/{studentId}")]
-    public IActionResult GetRequestsByStudent(int studentId)
+    public async Task<IActionResult> GetRequestsByStudent(int studentId)
     {
-        var studentRequests = Requests
+        var studentRequests = await _context.SupportRequests
             .Where(r => r.StudentId == studentId)
-            .ToList();
+            .ToListAsync();
 
         return Ok(studentRequests);
     }
@@ -57,16 +64,17 @@ public class SupportRequestsController : ControllerBase
     {
         var request = new SupportRequest
         {
-            Id = Requests.Count + 1,
             StudentId = createDto.StudentId,
             Title = createDto.Title,
             Description = createDto.Description,
             Category = createDto.Category,
             Priority = createDto.Priority,
-            Status = "Submitted"
+            Status = "Submitted",
+            CreatedAt = DateTime.UtcNow
         };
 
-        Requests.Add(request);
+        _context.SupportRequests.Add(request);
+        await _context.SaveChangesAsync();
 
         // Send notification
         try
@@ -108,11 +116,12 @@ public class SupportRequestsController : ControllerBase
 
     // PUT: api/supportrequests/1
     [HttpPut("{id}")]
-    public IActionResult UpdateRequest(
+    public async Task<IActionResult> UpdateRequest(
         int id,
         UpdateSupportRequestDto updateDto)
     {
-        var request = Requests.FirstOrDefault(r => r.Id == id);
+        var request = await _context.SupportRequests
+            .FirstOrDefaultAsync(r => r.Id == id);
 
         if (request == null)
         {
@@ -127,16 +136,19 @@ public class SupportRequestsController : ControllerBase
         request.AssignedStaffId = updateDto.AssignedStaffId;
         request.UpdatedAt = DateTime.UtcNow;
 
+        await _context.SaveChangesAsync();
+
         return Ok(request);
     }
 
     // PUT: api/supportrequests/1/status
     [HttpPut("{id}/status")]
-    public IActionResult UpdateRequestStatus(
+    public async Task<IActionResult> UpdateRequestStatus(
         int id,
         UpdateRequestStatusDto statusDto)
     {
-        var request = Requests.FirstOrDefault(r => r.Id == id);
+        var request = await _context.SupportRequests
+            .FirstOrDefaultAsync(r => r.Id == id);
 
         if (request == null)
         {
@@ -146,21 +158,26 @@ public class SupportRequestsController : ControllerBase
         request.Status = statusDto.Status;
         request.UpdatedAt = DateTime.UtcNow;
 
+        await _context.SaveChangesAsync();
+
         return Ok(request);
     }
 
     // DELETE: api/supportrequests/1
     [HttpDelete("{id}")]
-    public IActionResult DeleteRequest(int id)
+    public async Task<IActionResult> DeleteRequest(int id)
     {
-        var request = Requests.FirstOrDefault(r => r.Id == id);
+        var request = await _context.SupportRequests
+            .FirstOrDefaultAsync(r => r.Id == id);
 
         if (request == null)
         {
             return NotFound("Support request not found.");
         }
 
-        Requests.Remove(request);
+        _context.SupportRequests.Remove(request);
+
+        await _context.SaveChangesAsync();
 
         return NoContent();
     }

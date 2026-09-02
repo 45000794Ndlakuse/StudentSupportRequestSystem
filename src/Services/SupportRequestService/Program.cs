@@ -1,19 +1,51 @@
 using Consul;
+using Microsoft.EntityFrameworkCore;
+using Serilog;
 using SupportRequestService.Configuration;
+using SupportRequestService.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// ==========================================
+// Serilog Configuration
+// ==========================================
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.Console()
+    .WriteTo.File(
+        "logs/support-request-service-.log",
+        rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<SupportRequestDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddOpenApi();
 
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddHttpClient();
+
+builder.Services.AddSingleton<IConsulClient>(
+    new ConsulClient(config =>
+    {
+        config.Address = new Uri("http://localhost:8500");
+    })
+);
 
 var consulConfig = new ConsulConfig();
 
 builder.Services.AddSingleton(consulConfig);
 
 var app = builder.Build();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 if (app.Environment.IsDevelopment())
 {
