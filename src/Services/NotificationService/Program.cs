@@ -1,10 +1,19 @@
 using Consul;
 using NotificationService.Configuration;
+using Microsoft.EntityFrameworkCore;
+using NotificationService.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add controllers
 builder.Services.AddControllers();
+
+// SQL Server / Entity Framework
+builder.Services.AddDbContext<NotificationDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("NotificationDb")
+    ));
 
 // OpenAPI
 builder.Services.AddOpenApi();
