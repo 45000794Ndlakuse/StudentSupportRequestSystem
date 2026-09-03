@@ -77,7 +77,7 @@ var registration = new AgentServiceRegistration()
     Tags = new[] { "user", "api" },
     Check = new AgentServiceCheck()
     {
-        HTTP = $"http://{consulConfig.ServiceHost}:{consulConfig.ServicePort}/health",
+        HTTP = $"http://{consulConfig.HealthCheckHost}:{consulConfig.ServicePort}/health",
         Interval = TimeSpan.FromSeconds(10),
         Timeout = TimeSpan.FromSeconds(5)
     }
