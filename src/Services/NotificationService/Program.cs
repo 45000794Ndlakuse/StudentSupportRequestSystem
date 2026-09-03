@@ -80,11 +80,11 @@ var registration = new AgentServiceRegistration
     },
 
     Check = new AgentServiceCheck
-    {
-        HTTP = $"http://{consulConfig.ServiceHost}:{consulConfig.ServicePort}/health",
-        Interval = TimeSpan.FromSeconds(10),
-        Timeout = TimeSpan.FromSeconds(5)
-    }
+{
+    HTTP = $"http://{consulConfig.HealthCheckHost}:{consulConfig.ServicePort}/health",
+    Interval = TimeSpan.FromSeconds(10),
+    Timeout = TimeSpan.FromSeconds(5)
+}
 };
 
 // Register service with Consul

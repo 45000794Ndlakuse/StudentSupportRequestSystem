@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SupportRequestService.Data;
 using SupportRequestService.DTOs;
 using SupportRequestService.Models;
+using SupportRequestService.Services;
 
 namespace SupportRequestService.Controllers;
 
@@ -14,17 +15,19 @@ public class SupportRequestsController : ControllerBase
     private readonly SupportRequestDbContext _context;
     private readonly IHttpClientFactory _httpClientFactory;
     private readonly ILogger<SupportRequestsController> _logger;
+    private readonly ConsulServiceDiscovery _serviceDiscovery;
 
     public SupportRequestsController(
-        SupportRequestDbContext context,
-        IHttpClientFactory httpClientFactory,
-        ILogger<SupportRequestsController> logger)
+    SupportRequestDbContext context,
+    IHttpClientFactory httpClientFactory,
+    ILogger<SupportRequestsController> logger,
+    ConsulServiceDiscovery serviceDiscovery)
     {
         _context = context;
         _httpClientFactory = httpClientFactory;
         _logger = logger;
+        _serviceDiscovery = serviceDiscovery;
     }
-
     // GET: api/supportrequests
     [HttpGet]
     public async Task<IActionResult> GetAllRequests()
@@ -115,23 +118,37 @@ public class SupportRequestsController : ControllerBase
                 Type = "SupportRequest"
             };
 
-            var response = await client.PostAsJsonAsync(
-                "http://localhost:5195/api/notifications",
-                notification
-            );
+            var notificationServiceUrl =
+    await _serviceDiscovery.GetServiceUrlAsync("NotificationService");
 
-            if (!response.IsSuccessStatusCode)
+            if (notificationServiceUrl == null)
             {
                 _logger.LogWarning(
-                    "Notification request failed. SupportRequestId: {RequestId}, StatusCode: {StatusCode}",
-                    request.Id,
-                    response.StatusCode);
+                    "NotificationService could not be discovered through Consul. SupportRequestId: {RequestId}",
+                    request.Id);
             }
             else
             {
-                _logger.LogInformation(
-                    "Notification sent successfully. SupportRequestId: {RequestId}",
-                    request.Id);
+                _logger.LogInformation("NotificationService discovered at {NotificationServiceUrl}", notificationServiceUrl);
+
+                var response = await client.PostAsJsonAsync(
+                    $"{notificationServiceUrl}/api/notifications",
+                    notification
+                );
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    _logger.LogWarning(
+                        "Notification request failed. SupportRequestId: {RequestId}, StatusCode: {StatusCode}",
+                        request.Id,
+                        response.StatusCode);
+                }
+                else
+                {
+                    _logger.LogInformation(
+                        "Notification sent successfully. SupportRequestId: {RequestId}",
+                        request.Id);
+                }
             }
         }
         catch (Exception ex)

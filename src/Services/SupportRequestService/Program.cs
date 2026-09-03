@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Serilog;
 using SupportRequestService.Configuration;
 using SupportRequestService.Data;
+using SupportRequestService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -43,6 +44,8 @@ var consulConfig = new ConsulConfig();
 
 builder.Services.AddSingleton(consulConfig);
 
+builder.Services.AddSingleton<ConsulServiceDiscovery>();
+
 var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
@@ -74,7 +77,7 @@ var registration = new AgentServiceRegistration()
     Tags = new[] { "support-request", "api" },
     Check = new AgentServiceCheck()
     {
-        HTTP = $"http://{consulConfig.ServiceHost}:{consulConfig.ServicePort}/health",
+        HTTP = $"http://{consulConfig.HealthCheckHost}:{consulConfig.ServicePort}/health",
         Interval = TimeSpan.FromSeconds(10),
         Timeout = TimeSpan.FromSeconds(5)
     }

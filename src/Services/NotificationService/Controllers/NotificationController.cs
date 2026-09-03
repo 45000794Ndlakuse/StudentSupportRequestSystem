@@ -83,6 +83,28 @@ public class NotificationsController : ControllerBase
         );
     }
 
+    // PUT: api/notifications/1
+[HttpPut("{id}")]
+public async Task<IActionResult> UpdateNotification(
+    int id,
+    Notification notification)
+{
+    var updated = await _repository.UpdateAsync(id, notification);
+
+    if (!updated)
+    {
+        return NotFound("Notification not found.");
+    }
+
+    _logger.LogInformation(
+        "Notification {NotificationId} updated",
+        id);
+
+    var updatedNotification = await _repository.GetByIdAsync(id);
+
+    return Ok(updatedNotification);
+}
+
     // PUT: api/notifications/1/read
     [HttpPut("{id}/read")]
     public async Task<IActionResult> MarkNotificationAsRead(
