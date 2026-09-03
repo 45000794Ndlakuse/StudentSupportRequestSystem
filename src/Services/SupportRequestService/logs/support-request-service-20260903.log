@@ -1678,3 +1678,946 @@ SELECT 1
 2026-09-03 11:35:36.026 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
 2026-09-03 11:35:36.033 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 93.6696ms
 2026-09-03 11:35:44.966 +02:00 [INF] Application is shutting down...
+2026-09-03 11:46:09.455 +02:00 [INF] Now listening on: http://localhost:5092
+2026-09-03 11:46:09.521 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-03 11:46:09.523 +02:00 [INF] Hosting environment: Development
+2026-09-03 11:46:09.525 +02:00 [INF] Content root path: C:\Users\Thami\Projects2026\StudentSupportRequestSystem\src\Services\SupportRequestService
+2026-09-03 11:46:17.141 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:46:17.330 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:17.370 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:46:18.726 +02:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:46:18.762 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:46:18.806 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 1422.5138ms
+2026-09-03 11:46:18.812 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:18.841 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 1706.4759ms
+2026-09-03 11:46:28.834 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:46:28.848 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:28.852 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:46:28.910 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:46:28.918 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:46:28.923 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 65.0648ms
+2026-09-03 11:46:28.929 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:28.934 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 101.1992ms
+2026-09-03 11:46:38.959 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:46:38.992 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:39.004 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:46:39.237 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:46:39.242 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:46:39.245 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 226.4854ms
+2026-09-03 11:46:39.249 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:39.252 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 293.0456ms
+2026-09-03 11:46:49.269 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:46:49.288 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:49.298 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:46:49.315 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:46:49.328 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:46:49.338 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 26.9968ms
+2026-09-03 11:46:49.347 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:49.357 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 87.4113ms
+2026-09-03 11:46:59.367 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:46:59.375 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:59.378 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:46:59.386 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:46:59.392 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:46:59.396 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 12.5733ms
+2026-09-03 11:46:59.402 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:46:59.405 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 37.503ms
+2026-09-03 11:47:09.431 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:47:09.473 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:09.485 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:47:09.532 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:47:09.544 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:47:09.553 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 27.9174ms
+2026-09-03 11:47:09.560 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:09.567 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 137.0285ms
+2026-09-03 11:47:19.579 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:47:19.599 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:19.603 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:47:19.614 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:47:19.623 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:47:19.628 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 17.1723ms
+2026-09-03 11:47:19.635 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:19.640 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 60.3805ms
+2026-09-03 11:47:29.659 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:47:29.673 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:29.682 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:47:29.698 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:47:29.711 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:47:29.719 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 25.0027ms
+2026-09-03 11:47:29.730 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:29.739 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 79.1497ms
+2026-09-03 11:47:39.752 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:47:39.792 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:39.799 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:47:39.811 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:47:39.823 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:47:39.827 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 18.9916ms
+2026-09-03 11:47:39.838 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:39.844 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 91.2383ms
+2026-09-03 11:47:49.864 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:47:49.886 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:50.054 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:47:50.068 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:47:50.075 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:47:50.098 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 33.2851ms
+2026-09-03 11:47:50.107 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:47:50.110 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 245.8291ms
+2026-09-03 11:48:00.133 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:48:00.150 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:00.157 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:48:00.176 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:48:00.193 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:48:00.204 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 34.0101ms
+2026-09-03 11:48:00.218 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:00.226 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 92.0218ms
+2026-09-03 11:48:10.243 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:48:10.256 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:10.262 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:48:10.276 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:48:10.289 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:48:10.297 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 26.2512ms
+2026-09-03 11:48:10.307 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:10.315 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 71.9609ms
+2026-09-03 11:48:20.337 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:48:20.362 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:20.401 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:48:20.435 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:48:20.451 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:48:20.462 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 32.5328ms
+2026-09-03 11:48:20.478 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:20.486 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 149.036ms
+2026-09-03 11:48:30.504 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:48:30.517 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:30.524 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:48:30.539 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:48:30.550 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:48:30.563 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 27.7051ms
+2026-09-03 11:48:30.578 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:30.585 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 80.7245ms
+2026-09-03 11:48:40.600 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:48:40.617 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:40.625 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:48:40.643 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:48:40.657 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:48:40.670 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 32.2409ms
+2026-09-03 11:48:40.683 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:40.692 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 92.0385ms
+2026-09-03 11:48:50.715 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:48:50.728 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:50.736 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:48:50.755 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:48:50.771 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:48:50.859 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 108.6674ms
+2026-09-03 11:48:50.935 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:48:50.937 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 222.7221ms
+2026-09-03 11:49:00.965 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:49:00.987 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:00.998 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:49:01.029 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:49:01.053 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:49:01.098 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 77.7732ms
+2026-09-03 11:49:01.111 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:01.118 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 153.711ms
+2026-09-03 11:49:11.137 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:49:11.155 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:11.164 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:49:11.349 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:49:11.356 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:49:11.359 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 12.4593ms
+2026-09-03 11:49:11.363 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:11.365 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 228.4652ms
+2026-09-03 11:49:21.395 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:49:21.452 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:21.462 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:49:21.475 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:49:21.486 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:49:21.489 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 16.2548ms
+2026-09-03 11:49:21.493 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:21.496 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 100.3701ms
+2026-09-03 11:49:31.504 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:49:31.511 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:31.515 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:49:31.522 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:49:31.527 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:49:31.530 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 10.4601ms
+2026-09-03 11:49:31.536 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:31.539 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 35.4659ms
+2026-09-03 11:49:41.552 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:49:41.563 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:41.568 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:49:41.580 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:49:41.589 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:49:41.595 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 19.1131ms
+2026-09-03 11:49:41.606 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:41.611 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 59.4664ms
+2026-09-03 11:49:51.622 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:49:51.631 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:51.634 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:49:51.644 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:49:51.650 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:49:51.654 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 13.4658ms
+2026-09-03 11:49:51.664 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:49:51.668 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 46.5321ms
+2026-09-03 11:50:01.680 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:50:01.696 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:01.699 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:50:01.709 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:50:01.740 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:50:01.743 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 37.1145ms
+2026-09-03 11:50:01.752 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:01.761 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 80.5628ms
+2026-09-03 11:50:11.783 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:50:11.801 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:11.814 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:50:11.833 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:50:11.848 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:50:11.858 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 30.4863ms
+2026-09-03 11:50:11.875 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:11.884 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 100.3599ms
+2026-09-03 11:50:21.904 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:50:21.918 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:21.925 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:50:21.941 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:50:21.955 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:50:21.962 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 27.3997ms
+2026-09-03 11:50:21.976 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:21.987 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 83.4087ms
+2026-09-03 11:50:32.003 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:50:32.018 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:32.022 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:50:32.049 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:50:32.069 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:50:32.075 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 31.9114ms
+2026-09-03 11:50:32.088 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:32.091 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 87.929ms
+2026-09-03 11:50:42.111 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:50:42.129 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:42.138 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:50:42.156 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:50:42.173 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:50:42.182 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 31.3736ms
+2026-09-03 11:50:42.193 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:42.201 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 89.7404ms
+2026-09-03 11:50:52.220 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:50:52.236 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:52.242 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:50:52.256 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:50:52.266 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:50:52.275 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 24.22ms
+2026-09-03 11:50:52.286 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:50:52.294 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 73.629ms
+2026-09-03 11:51:02.303 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:51:02.310 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:02.313 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:51:02.322 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:51:02.330 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:51:02.335 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 16.1504ms
+2026-09-03 11:51:02.341 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:02.344 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 41.158ms
+2026-09-03 11:51:12.363 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:51:12.384 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:12.391 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:51:12.412 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:51:12.433 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:51:12.443 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 36.8056ms
+2026-09-03 11:51:12.487 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:12.498 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 135.184ms
+2026-09-03 11:51:22.527 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:51:22.552 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:22.560 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:51:22.580 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:51:22.590 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:51:22.596 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 21.5028ms
+2026-09-03 11:51:22.601 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:22.605 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 78.3599ms
+2026-09-03 11:51:32.613 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:51:32.620 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:32.622 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:51:32.629 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:51:32.634 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:51:32.636 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 9.8895ms
+2026-09-03 11:51:32.639 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:32.642 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 28.8694ms
+2026-09-03 11:51:42.660 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:51:42.678 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:42.685 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:51:42.700 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:51:42.715 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:51:42.728 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 31.0627ms
+2026-09-03 11:51:42.741 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:42.745 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 84.7967ms
+2026-09-03 11:51:52.770 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:51:52.793 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:52.807 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:51:52.833 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:51:52.859 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:51:52.865 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 39.4423ms
+2026-09-03 11:51:52.871 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:51:52.875 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 104.5147ms
+2026-09-03 11:52:02.885 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:52:02.894 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:02.898 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:52:02.906 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:52:02.914 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:52:02.919 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 14.9304ms
+2026-09-03 11:52:02.925 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:02.929 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 44.1943ms
+2026-09-03 11:52:12.939 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:52:12.947 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:12.951 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:52:12.960 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:52:12.967 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:52:12.972 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 14.7948ms
+2026-09-03 11:52:12.978 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:12.981 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 42.8946ms
+2026-09-03 11:52:23.010 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:52:23.079 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:23.087 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:52:23.106 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:52:23.114 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:52:23.120 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 18.6981ms
+2026-09-03 11:52:23.125 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:23.129 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 118.8384ms
+2026-09-03 11:52:33.149 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:52:33.165 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:33.173 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:52:33.188 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:52:33.212 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:52:33.249 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 65.7068ms
+2026-09-03 11:52:33.274 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:33.278 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 129.1924ms
+2026-09-03 11:52:43.288 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:52:43.299 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:43.304 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:52:43.314 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:52:43.404 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:52:43.484 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 172.1837ms
+2026-09-03 11:52:43.489 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:43.491 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 202.8702ms
+2026-09-03 11:52:53.505 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:52:53.512 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:53.516 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:52:53.523 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:52:53.528 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:52:53.532 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 10.6412ms
+2026-09-03 11:52:53.537 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:52:53.540 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 34.0991ms
+2026-09-03 11:53:03.561 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:53:03.582 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:03.592 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:53:03.616 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:53:03.799 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:53:03.806 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 196.8954ms
+2026-09-03 11:53:03.825 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:03.831 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 270.5135ms
+2026-09-03 11:53:13.854 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:53:13.874 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:13.881 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:53:13.900 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:53:13.917 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:53:13.925 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 30.7069ms
+2026-09-03 11:53:13.937 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:13.947 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 93.3898ms
+2026-09-03 11:53:23.968 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:53:23.988 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:23.996 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:53:24.014 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:53:24.029 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:53:24.038 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 28.029ms
+2026-09-03 11:53:24.049 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:24.058 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 89.0931ms
+2026-09-03 11:53:34.071 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:53:34.082 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:34.094 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:53:34.109 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:53:34.119 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:53:34.124 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 17.0466ms
+2026-09-03 11:53:34.129 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:34.135 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 63.9679ms
+2026-09-03 11:53:44.154 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:53:44.175 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:44.183 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:53:44.200 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:53:44.212 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:53:44.221 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 25.8166ms
+2026-09-03 11:53:44.232 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:44.239 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 84.474ms
+2026-09-03 11:53:54.289 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:53:54.299 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:54.303 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:53:54.311 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:53:54.318 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:53:54.321 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 12.4393ms
+2026-09-03 11:53:54.329 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:53:54.333 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 43.1685ms
+2026-09-03 11:54:04.355 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:54:04.384 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:04.400 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:54:04.438 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:54:04.467 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:54:04.485 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 56.0731ms
+2026-09-03 11:54:04.505 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:04.513 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 158.3284ms
+2026-09-03 11:54:14.531 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:54:14.636 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:14.642 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:54:14.659 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:54:14.896 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:54:14.899 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 242.0583ms
+2026-09-03 11:54:14.933 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:14.938 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 406.8863ms
+2026-09-03 11:54:24.948 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:54:24.956 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:24.960 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:54:24.975 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:54:24.986 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:54:24.996 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 26.3569ms
+2026-09-03 11:54:25.013 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:25.019 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 70.7849ms
+2026-09-03 11:54:35.031 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:54:35.043 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:35.048 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:54:35.058 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:54:35.066 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:54:35.072 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 17.1219ms
+2026-09-03 11:54:35.080 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:35.086 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 55.8127ms
+2026-09-03 11:54:45.104 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:54:45.128 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:45.131 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:54:45.140 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:54:45.157 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:54:45.168 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 29.938ms
+2026-09-03 11:54:45.184 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:45.196 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 92.0312ms
+2026-09-03 11:54:55.204 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:54:55.209 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:55.211 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:54:55.217 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:54:55.222 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:54:55.225 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 10.6193ms
+2026-09-03 11:54:55.229 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:54:55.232 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 27.8916ms
+2026-09-03 11:55:05.240 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:55:05.247 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:05.250 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:55:05.256 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:55:05.264 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:55:05.267 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 12.7152ms
+2026-09-03 11:55:05.273 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:05.277 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 36.4756ms
+2026-09-03 11:55:15.284 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:55:15.290 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:15.293 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:55:15.300 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:55:15.305 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:55:15.309 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 11.8445ms
+2026-09-03 11:55:15.314 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:15.317 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 32.712ms
+2026-09-03 11:55:25.325 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:55:25.332 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:25.335 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:55:25.341 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:55:25.346 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:55:25.349 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 9.8607ms
+2026-09-03 11:55:25.353 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:25.355 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 30.05ms
+2026-09-03 11:55:35.572 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:55:35.631 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:35.638 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:55:35.661 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:55:35.718 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:55:35.736 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 79.4748ms
+2026-09-03 11:55:35.774 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:35.783 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 210.5533ms
+2026-09-03 11:55:45.795 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:55:45.804 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:45.809 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:55:45.819 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:55:45.830 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:55:45.835 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 18.5583ms
+2026-09-03 11:55:45.842 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:45.845 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 50.4269ms
+2026-09-03 11:55:55.866 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:55:55.876 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:55.881 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:55:55.889 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:55:55.897 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:55:55.900 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 14.0129ms
+2026-09-03 11:55:55.906 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:55:55.909 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 43.3131ms
+2026-09-03 11:56:05.939 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:56:05.952 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:05.955 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:56:05.962 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:56:05.970 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:56:05.977 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 16.7204ms
+2026-09-03 11:56:05.981 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:05.988 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 49.5589ms
+2026-09-03 11:56:16.002 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:56:16.027 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:16.040 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:56:16.062 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:56:16.124 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:56:16.149 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 91.9677ms
+2026-09-03 11:56:16.164 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:16.167 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 164.7859ms
+2026-09-03 11:56:26.190 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:56:26.272 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:26.417 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:56:26.540 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:56:26.581 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:56:26.590 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 54.9981ms
+2026-09-03 11:56:26.599 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:26.605 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 415.1613ms
+2026-09-03 11:56:36.643 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:56:36.693 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:36.708 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:56:36.734 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:56:36.742 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:56:36.747 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 19.0456ms
+2026-09-03 11:56:36.752 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:36.759 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 116.282ms
+2026-09-03 11:56:46.775 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:56:46.804 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:46.810 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:56:46.823 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:56:46.830 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:56:46.836 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 16.6262ms
+2026-09-03 11:56:46.842 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:46.845 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 69.6085ms
+2026-09-03 11:56:56.857 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:56:56.875 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:56.890 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:56:56.910 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:56:56.925 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:56:56.938 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 33.3464ms
+2026-09-03 11:56:56.959 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:56:56.967 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 110.6762ms
+2026-09-03 11:57:06.992 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:57:07.021 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:07.029 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:57:07.051 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:57:07.067 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:57:07.073 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 26.8686ms
+2026-09-03 11:57:07.080 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:07.084 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 92.3027ms
+2026-09-03 11:57:17.106 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:57:17.130 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:17.143 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:57:17.167 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:57:17.185 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:57:17.198 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 37.5749ms
+2026-09-03 11:57:17.218 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:17.242 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 135.3844ms
+2026-09-03 11:57:27.268 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:57:27.290 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:27.298 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:57:27.321 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:57:27.339 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:57:27.353 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 37.2527ms
+2026-09-03 11:57:27.369 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:27.393 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 124.8175ms
+2026-09-03 11:57:37.442 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:57:37.521 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:37.528 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:57:37.539 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:57:37.546 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:57:37.549 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 12.0514ms
+2026-09-03 11:57:37.556 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:37.562 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 119.6295ms
+2026-09-03 11:57:47.589 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:57:47.639 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:47.654 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:57:47.666 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:57:47.672 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:57:47.677 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 14.8228ms
+2026-09-03 11:57:47.684 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:47.687 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 97.9959ms
+2026-09-03 11:57:57.725 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:57:57.756 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:57.772 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:57:57.820 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:57:57.829 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:57:57.835 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 20.6886ms
+2026-09-03 11:57:57.841 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:57:57.847 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 121.7714ms
+2026-09-03 11:58:07.872 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:58:07.913 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:07.930 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:58:08.032 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:58:08.043 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:58:08.052 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 25.8586ms
+2026-09-03 11:58:08.070 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:08.075 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 203.004ms
+2026-09-03 11:58:18.102 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:58:18.136 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:18.147 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:58:18.171 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:58:18.185 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:58:18.194 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 32.7172ms
+2026-09-03 11:58:18.200 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:18.205 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 103.2151ms
+2026-09-03 11:58:28.211 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:58:28.218 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:28.340 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:58:28.379 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:58:28.398 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:58:28.409 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 34.4171ms
+2026-09-03 11:58:28.425 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:28.429 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 217.8542ms
+2026-09-03 11:58:38.454 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:58:38.544 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:38.575 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:58:38.607 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:58:38.615 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:58:38.621 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 16.546ms
+2026-09-03 11:58:38.629 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:38.635 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 181.3309ms
+2026-09-03 11:58:48.646 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:58:48.659 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:48.666 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:58:48.678 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:58:48.688 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:58:48.692 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 17.9981ms
+2026-09-03 11:58:48.702 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:48.707 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 61.4213ms
+2026-09-03 11:58:58.736 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:58:58.769 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:58.800 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:58:58.825 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:58:58.833 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:58:58.838 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 16.9327ms
+2026-09-03 11:58:58.844 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:58:58.851 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 115.0929ms
+2026-09-03 11:59:08.867 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:59:08.892 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:08.903 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:59:09.038 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:59:09.047 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:59:09.052 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 17.2599ms
+2026-09-03 11:59:09.075 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:09.079 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 211.4305ms
+2026-09-03 11:59:19.101 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:59:19.118 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:19.127 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:59:19.148 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:59:19.164 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:59:19.178 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 34.5839ms
+2026-09-03 11:59:19.202 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:19.211 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 109.4943ms
+2026-09-03 11:59:29.255 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:59:29.325 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:29.332 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:59:29.367 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:59:29.387 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:59:29.393 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 37.7101ms
+2026-09-03 11:59:29.406 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:29.412 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 156.9477ms
+2026-09-03 11:59:39.610 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:59:39.620 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:39.625 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:59:39.659 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:59:39.669 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:59:39.673 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 15.8765ms
+2026-09-03 11:59:39.680 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:39.686 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 75.9787ms
+2026-09-03 11:59:49.716 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:59:49.742 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:49.770 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:59:49.797 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 11:59:49.816 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 11:59:49.831 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 40.2299ms
+2026-09-03 11:59:49.849 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:49.855 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 139.508ms
+2026-09-03 11:59:59.878 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 11:59:59.928 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 11:59:59.958 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 11:59:59.984 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:00:00.113 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:00:00.129 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 150.2539ms
+2026-09-03 12:00:00.134 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:00.142 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 264.2188ms
+2026-09-03 12:00:10.254 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:00:10.330 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:10.339 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:00:10.352 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:00:10.434 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:00:10.447 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 98.3458ms
+2026-09-03 12:00:10.458 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:10.466 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 211.9361ms
+2026-09-03 12:00:20.489 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:00:20.537 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:20.561 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:00:20.591 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:00:20.713 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:00:20.720 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 135.3977ms
+2026-09-03 12:00:20.741 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:20.748 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 259.1037ms
+2026-09-03 12:00:30.762 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:00:30.806 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:30.817 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:00:30.848 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:00:30.871 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:00:30.887 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 47.79ms
+2026-09-03 12:00:30.904 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:30.918 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 156.0511ms
+2026-09-03 12:00:40.936 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:00:40.959 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:40.963 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:00:40.973 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:00:40.979 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:00:41.152 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 182.3951ms
+2026-09-03 12:00:41.161 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:41.168 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 231.7535ms
+2026-09-03 12:00:51.181 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:00:51.199 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:51.225 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:00:51.377 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:00:51.391 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:00:51.401 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 25.4952ms
+2026-09-03 12:00:51.432 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:00:51.453 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 272.2032ms
+2026-09-03 12:01:01.470 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:01:01.482 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:01.486 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:01:01.499 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:01:01.511 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:01:01.525 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 30.6924ms
+2026-09-03 12:01:01.568 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:01.573 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 102.5393ms
+2026-09-03 12:01:11.598 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:01:11.630 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:11.668 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:01:11.717 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:01:11.726 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:01:11.734 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 23.2342ms
+2026-09-03 12:01:11.740 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:11.745 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 146.5751ms
+2026-09-03 12:01:21.774 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:01:21.811 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:21.872 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:01:21.939 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:01:22.019 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:01:22.026 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 89.2305ms
+2026-09-03 12:01:22.050 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:22.053 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 279.1753ms
+2026-09-03 12:01:32.062 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:01:32.068 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:32.072 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:01:32.077 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:01:32.084 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:01:32.094 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 18.1983ms
+2026-09-03 12:01:32.103 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:32.115 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 52.7931ms
+2026-09-03 12:01:42.136 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:01:42.154 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:42.170 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:01:42.211 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:01:42.233 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:01:42.250 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 44.8808ms
+2026-09-03 12:01:42.273 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:42.281 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 144.8419ms
+2026-09-03 12:01:52.340 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:01:52.378 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:52.385 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:01:52.397 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:01:52.440 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:01:52.611 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 216.6457ms
+2026-09-03 12:01:52.621 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:01:52.637 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 296.1451ms
+2026-09-03 12:02:02.659 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:02:02.688 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:02.697 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:02:02.722 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:02:02.757 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:02:02.789 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 75.3544ms
+2026-09-03 12:02:02.807 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:02.815 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 155.2544ms
+2026-09-03 12:02:12.844 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:02:12.890 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:12.902 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:02:12.932 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:02:12.953 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:02:12.966 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 38.5775ms
+2026-09-03 12:02:12.995 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:13.001 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 156.1166ms
+2026-09-03 12:02:23.024 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:02:23.059 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:23.073 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:02:23.100 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:02:23.135 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:02:23.159 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 66.0994ms
+2026-09-03 12:02:23.173 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:23.177 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 153.1002ms
+2026-09-03 12:02:30.289 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5092/api/supportrequests - null null
+2026-09-03 12:02:30.297 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.SupportRequestsController.GetAllRequests (SupportRequestService)'
+2026-09-03 12:02:30.322 +02:00 [INF] Route matched with {action = "GetAllRequests", controller = "SupportRequests"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRequests() on controller SupportRequestService.Controllers.SupportRequestsController (SupportRequestService).
+2026-09-03 12:02:31.009 +02:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[AssignedStaffId], [s].[Category], [s].[CreatedAt], [s].[Description], [s].[Priority], [s].[Status], [s].[StudentId], [s].[Title], [s].[UpdatedAt]
+FROM [SupportRequests] AS [s]
+2026-09-03 12:02:31.191 +02:00 [INF] Retrieved 7 support requests
+2026-09-03 12:02:31.195 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SupportRequestService.Models.SupportRequest, SupportRequestService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-03 12:02:31.245 +02:00 [INF] Executed action SupportRequestService.Controllers.SupportRequestsController.GetAllRequests (SupportRequestService) in 917.6359ms
+2026-09-03 12:02:31.251 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.SupportRequestsController.GetAllRequests (SupportRequestService)'
+2026-09-03 12:02:31.255 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5092/api/supportrequests - 200 null application/json; charset=utf-8 965.7761ms
+2026-09-03 12:02:33.190 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:02:33.212 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:33.222 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:02:33.238 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:02:33.249 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:02:33.256 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 22.3487ms
+2026-09-03 12:02:33.263 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:33.272 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 81.8806ms
+2026-09-03 12:02:43.302 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:02:43.343 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:43.361 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:02:43.391 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:02:43.405 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:02:43.411 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 23.6369ms
+2026-09-03 12:02:43.424 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:43.429 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 126.7825ms
+2026-09-03 12:02:53.538 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:02:53.583 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:53.588 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:02:53.619 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:02:53.641 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:02:53.647 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 41.9821ms
+2026-09-03 12:02:53.655 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:02:53.662 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 124.3131ms
+2026-09-03 12:03:03.702 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:03:03.722 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:03:03.730 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:03:03.741 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:03:03.770 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:03:03.788 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 50.2275ms
+2026-09-03 12:03:03.800 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:03:03.806 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 103.3166ms
+2026-09-03 12:03:13.871 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:03:13.881 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:03:13.885 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:03:13.899 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:03:14.205 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:03:14.273 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 376.2011ms
+2026-09-03 12:03:14.311 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:03:14.328 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 456.936ms
+2026-09-03 12:03:24.354 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:03:24.372 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:03:24.375 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:03:24.387 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:03:24.402 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:03:24.408 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 24.5982ms
+2026-09-03 12:03:24.415 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:03:24.421 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 67.2235ms
+2026-09-03 12:03:34.432 +02:00 [INF] Request starting HTTP/1.1 GET http://host.docker.internal:5092/health - null null
+2026-09-03 12:03:34.442 +02:00 [INF] Executing endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:03:34.449 +02:00 [INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller SupportRequestService.Controllers.HealthController (SupportRequestService).
+2026-09-03 12:03:34.458 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-09-03 12:03:34.466 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-03 12:03:34.471 +02:00 [INF] Executed action SupportRequestService.Controllers.HealthController.Get (SupportRequestService) in 15.3369ms
+2026-09-03 12:03:34.480 +02:00 [INF] Executed endpoint 'SupportRequestService.Controllers.HealthController.Get (SupportRequestService)'
+2026-09-03 12:03:34.492 +02:00 [INF] Request finished HTTP/1.1 GET http://host.docker.internal:5092/health - 200 null application/json; charset=utf-8 59.3547ms
+2026-09-03 12:03:40.199 +02:00 [INF] Application is shutting down...
