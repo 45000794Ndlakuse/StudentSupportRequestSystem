@@ -13,13 +13,16 @@ public class SupportRequestsController : ControllerBase
 {
     private readonly SupportRequestDbContext _context;
     private readonly IHttpClientFactory _httpClientFactory;
+    private readonly ILogger<SupportRequestsController> _logger;
 
     public SupportRequestsController(
         SupportRequestDbContext context,
-        IHttpClientFactory httpClientFactory)
+        IHttpClientFactory httpClientFactory,
+        ILogger<SupportRequestsController> logger)
     {
         _context = context;
         _httpClientFactory = httpClientFactory;
+        _logger = logger;
     }
 
     // GET: api/supportrequests
@@ -27,6 +30,10 @@ public class SupportRequestsController : ControllerBase
     public async Task<IActionResult> GetAllRequests()
     {
         var requests = await _context.SupportRequests.ToListAsync();
+
+        _logger.LogInformation(
+            "Retrieved {RequestCount} support requests",
+            requests.Count);
 
         return Ok(requests);
     }
@@ -40,8 +47,16 @@ public class SupportRequestsController : ControllerBase
 
         if (request == null)
         {
+            _logger.LogWarning(
+                "Support request lookup failed. RequestId: {RequestId}",
+                id);
+
             return NotFound("Support request not found.");
         }
+
+        _logger.LogInformation(
+            "Support request retrieved. RequestId: {RequestId}",
+            id);
 
         return Ok(request);
     }
@@ -53,6 +68,11 @@ public class SupportRequestsController : ControllerBase
         var studentRequests = await _context.SupportRequests
             .Where(r => r.StudentId == studentId)
             .ToListAsync();
+
+        _logger.LogInformation(
+            "Retrieved {RequestCount} support requests for StudentId: {StudentId}",
+            studentRequests.Count,
+            studentId);
 
         return Ok(studentRequests);
     }
@@ -76,6 +96,13 @@ public class SupportRequestsController : ControllerBase
         _context.SupportRequests.Add(request);
         await _context.SaveChangesAsync();
 
+        _logger.LogInformation(
+            "Support request created. RequestId: {RequestId}, StudentId: {StudentId}, Category: {Category}, Priority: {Priority}",
+            request.Id,
+            request.StudentId,
+            request.Category,
+            request.Priority);
+
         // Send notification
         try
         {
@@ -95,16 +122,24 @@ public class SupportRequestsController : ControllerBase
 
             if (!response.IsSuccessStatusCode)
             {
-                Console.WriteLine(
-                    $"Failed to create notification. Status: {response.StatusCode}"
-                );
+                _logger.LogWarning(
+                    "Notification request failed. SupportRequestId: {RequestId}, StatusCode: {StatusCode}",
+                    request.Id,
+                    response.StatusCode);
+            }
+            else
+            {
+                _logger.LogInformation(
+                    "Notification sent successfully. SupportRequestId: {RequestId}",
+                    request.Id);
             }
         }
         catch (Exception ex)
         {
-            Console.WriteLine(
-                $"Error communicating with NotificationService: {ex.Message}"
-            );
+            _logger.LogError(
+                ex,
+                "Error communicating with NotificationService. SupportRequestId: {RequestId}",
+                request.Id);
         }
 
         return CreatedAtAction(
@@ -125,6 +160,10 @@ public class SupportRequestsController : ControllerBase
 
         if (request == null)
         {
+            _logger.LogWarning(
+                "Support request update failed. RequestId: {RequestId}",
+                id);
+
             return NotFound("Support request not found.");
         }
 
@@ -137,6 +176,13 @@ public class SupportRequestsController : ControllerBase
         request.UpdatedAt = DateTime.UtcNow;
 
         await _context.SaveChangesAsync();
+
+        _logger.LogInformation(
+            "Support request updated. RequestId: {RequestId}, Status: {Status}, Priority: {Priority}, AssignedStaffId: {AssignedStaffId}",
+            request.Id,
+            request.Status,
+            request.Priority,
+            request.AssignedStaffId);
 
         return Ok(request);
     }
@@ -152,6 +198,10 @@ public class SupportRequestsController : ControllerBase
 
         if (request == null)
         {
+            _logger.LogWarning(
+                "Support request status update failed. RequestId: {RequestId}",
+                id);
+
             return NotFound("Support request not found.");
         }
 
@@ -159,6 +209,11 @@ public class SupportRequestsController : ControllerBase
         request.UpdatedAt = DateTime.UtcNow;
 
         await _context.SaveChangesAsync();
+
+        _logger.LogInformation(
+            "Support request status changed. RequestId: {RequestId}, NewStatus: {Status}",
+            request.Id,
+            request.Status);
 
         return Ok(request);
     }
@@ -172,12 +227,21 @@ public class SupportRequestsController : ControllerBase
 
         if (request == null)
         {
+            _logger.LogWarning(
+                "Support request deletion failed. RequestId: {RequestId}",
+                id);
+
             return NotFound("Support request not found.");
         }
 
         _context.SupportRequests.Remove(request);
 
         await _context.SaveChangesAsync();
+
+        _logger.LogInformation(
+            "Support request deleted. RequestId: {RequestId}, StudentId: {StudentId}",
+            request.Id,
+            request.StudentId);
 
         return NoContent();
     }
