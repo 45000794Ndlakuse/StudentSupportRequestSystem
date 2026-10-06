@@ -42,7 +42,17 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 // Consul Configuration
 // ==========================================
 
-var consulConfig = new ConsulConfig();
+var consulConfig = new ConsulConfig
+{
+    Address = builder.Configuration["CONSUL_ADDRESS"]
+        ?? "http://localhost:8500",
+
+    ServiceHost = builder.Configuration["SERVICE_HOST"]
+        ?? "localhost",
+
+    HealthCheckHost = builder.Configuration["HEALTH_CHECK_HOST"]
+        ?? "host.docker.internal"
+};
 
 builder.Services.AddSingleton(consulConfig);
 
