@@ -1,6 +1,9 @@
+
+namespace SocService.Model;
+
 public class SecurityEvent
 {
-public string EventId { get; set; } = Guid.NewGuid().ToString();
+public int EventId { get; set; }
 public DateTime Timestamp { get; set; } = DateTime.UtcNow;
 public string ServiceName { get; set; } = string.Empty;
 public string EventType { get; set; } = string.Empty; // e.g. FAILED_LOGIN, UNAUTHORISED_ACCESS
