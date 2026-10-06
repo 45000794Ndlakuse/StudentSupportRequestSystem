@@ -1,0 +1,6 @@
+@SocService_HostAddress = http://localhost:5247
+
+GET {{SocService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
