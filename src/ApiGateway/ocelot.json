@@ -37,6 +37,18 @@
       "UpstreamHttpMethod": [ "GET", "POST" ]
     },
     {
+      "DownstreamPathTemplate": "/api/supportrequests/student/{studentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5092
+        }
+      ],
+      "UpstreamPathTemplate": "/api/supportrequests/student/{studentId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
       "DownstreamPathTemplate": "/api/supportrequests/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -47,6 +59,18 @@
       ],
       "UpstreamPathTemplate": "/api/supportrequests/{id}",
       "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/supportrequests/{id}/status",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5092
+        }
+      ],
+      "UpstreamPathTemplate": "/api/supportrequests/{id}/status",
+      "UpstreamHttpMethod": [ "PUT" ]
     },
     {
       "DownstreamPathTemplate": "/api/notifications",
@@ -61,6 +85,18 @@
       "UpstreamHttpMethod": [ "GET", "POST" ]
     },
     {
+      "DownstreamPathTemplate": "/api/notifications/user/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5195
+        }
+      ],
+      "UpstreamPathTemplate": "/api/notifications/user/{userId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
       "DownstreamPathTemplate": "/api/notifications/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -71,9 +107,21 @@
       ],
       "UpstreamPathTemplate": "/api/notifications/{id}",
       "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/notifications/{id}/read",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5195
+        }
+      ],
+      "UpstreamPathTemplate": "/api/notifications/{id}/read",
+      "UpstreamHttpMethod": [ "PUT" ]
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5000"
+    "BaseUrl": "http://localhost:5220"
   }
 }
